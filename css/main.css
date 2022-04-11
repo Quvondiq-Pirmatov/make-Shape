@@ -1,0 +1,22 @@
+*{
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.container{
+    margin: 5rem auto;
+    width: 600px;
+
+    height: 300px;
+}
+.box{
+    width: 400px;
+    height: 150px;
+    margin: 4rem auto 10px;
+    background: white;
+}
+.input{
+    width: 170px;
+}
+label{
+    text-transform: capitalize;
+}

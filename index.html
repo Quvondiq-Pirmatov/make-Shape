@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>task 3 | lesson 26</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/main.css">
+
+</head>
+<body>
+
+<div class="container">
+    <div class="row">
+        <div class="col">
+            <div class="box d-flex flex-wrap">
+               <div style="margin-top: 1rem; width: 45%">
+                   <label for="width">width</label>
+                   <input class="input" type="text" id="width" placeholder="px">
+               </div>
+
+                <div style="margin-top: 1rem; width: 45%">
+                    <label for="height">height</label>
+                    <input class="input" type="text" id="height" placeholder="px">
+                </div>
+
+                <div style="margin-top: 1rem; width: 45%">
+                    <label for="radius">radius</label>
+                    <input class="input" type="text" id="radius" placeholder="%">
+                </div>
+
+                <div style="margin-top: 1rem; width: 45%">
+                    <label for="color">color</label>
+                    <input class="input" type="text" id="color" placeholder="color">
+                </div>
+
+            </div>
+            <button class="btn-dark float-right" style=" border-radius: 5px;outline: none; border: none;margin-right: 5px;" onclick="control()">ok</button>
+            <div id="figure" style="margin: 50px auto"></div>
+        </div>
+    </div>
+
+
+</div>
+
+<script src="js/jQuery.min.js"></script>
+<script src="js/popper.js"></script>
+<script src="js/bootstrap.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
